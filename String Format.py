@@ -1,0 +1,15 @@
+print("İsminizi Giriniz: ")
+isim = input()
+from time import sleep
+sleep(2)
+print("Yaşınızı Giriniz: ") 
+yas = input()
+metin = "Merhaba! Benim adım {}, ben {} yaşımdayım.".format(isim, yas)
+print("İsminizi Giriniz: ")
+isim = input()
+from time import sleep
+sleep(2)
+print("Yaşınızı Giriniz: ") 
+yas = input()
+metin = "Merhaba! Benim adım {}, ben {} yaşımdayım.".format(isim, yas)
+print(metin)
