@@ -29,12 +29,12 @@ if final >=final_min:
     elif(total>=60 and total<70):
         print("CB Not ile geçtiniz.")
     elif(total>=50 and total<60):
-        print("CC Not ile geçtiniz.")
+        print("CC Not ile kaldınız.")
     elif(total>=40 and total<50):
-        print("DC Not ile geçtiniz.")
+        print("DC Not ile kaldınız.")
     elif(total>=30 and total<40):
-        print("DD Not ile geçtiniz.")
+        print("DD Not kaldınız.")
     elif(total>=20 and total<30):
-        print("FD Not ile geçtiniz.")
+        print("FD Not ile kaldınız.")
 else:
         print("FF Not ile sınıfta kaldınız.")   
