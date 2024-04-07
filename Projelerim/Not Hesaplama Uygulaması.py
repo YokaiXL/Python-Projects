@@ -16,7 +16,7 @@ print("Lütfen minimum almanız gereken final notunu giriniz:  ")
 final_min = int(input())
 
 #İlk başta total değişkenini not diye yazmıştım kod hata verdi. Program not kelimesini bildiğimiz ters fonksiyon olarak  algılamış :DDD
-total = int((vize*vize_yuzde) + (final*final_yuzde))
+total = int((vize*vize_yuzde/100) + (final*final_yuzde/100))
 
 #if-else kod bloğunda 5 satır yazdıktan sonra Co-Pilot diğer elif blokları tamamladı.
 if final >=final_min:
