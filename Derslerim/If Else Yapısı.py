@@ -22,7 +22,7 @@ total = int((vize*vize_yuzde) + (final*final_yuzde))
 if final >=final_min:
     if(total>=90):
         print("AA Not ile geçtiniz.") 
-    elif(total>=80 and total<90):
+    elif(total>=80 and total<90): #!and komutu iki koşulun da aynı anda sağlanmasını gerektirir. "or" komutunda ise tek koşulun sağlanması yeterlidir.
         print("BA Not ile geçtiniz.")
     elif(total>=70 and total<80):
         print("BB Not ile geçtiniz.")
@@ -39,4 +39,3 @@ if final >=final_min:
 else:
         print("FF Not ile sınıfta kaldınız.")   
     
-        

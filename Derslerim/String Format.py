@@ -6,6 +6,7 @@ sleep(1)
 print("Yaşınızı Giriniz: ") 
 yas = input()
 metin = "Merhaba! Benim adım {}, ben {} yaşımdayım.".format(isim, yas)
+print(metin)
 
 
 print("İsminizi Giriniz: ")
@@ -24,7 +25,7 @@ from time import sleep
 sleep(1)
 print("Yaşınızı Giriniz: ") 
 yas = input()
-metin = "Merhaba! Benim adım {0}, ben {1} yaşımdayım.".format(i = isim, y = yas)
+metin = "Merhaba! Benim adım {0}, ben {1} yaşımdayım.".format(isim,yas)
 print(metin)
 
 
