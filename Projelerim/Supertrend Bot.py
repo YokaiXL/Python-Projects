@@ -6,7 +6,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, CallbackContext
 
 # Telegram botu için token
-TELEGRAM_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+TELEGRAM_TOKEN = '7461572296:AAH2Tc1kXdE6eNtBtyh9kIxguC8GZL3OihU'
 
 # Kripto_Veri fonksiyonunu tanımlayalım.
 def Kripto_Veri(sembol):
